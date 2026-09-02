@@ -495,3 +495,34 @@ body {
         0 0 8px #FFD27A,
         0 0 16px rgba(255, 210, 122, 0.6);
 }
+@media (max-width: 768px) {
+
+    .interactive-lamp {
+        min-height: auto;
+
+        padding: 100px 6%;
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .lamp-stage {
+        min-height: 550px;
+    }
+
+    .lamp {
+        transform: scale(0.8);
+    }
+
+    .light-glow {
+        width: 350px;
+        height: 350px;
+    }
+
+    .lamp-switch {
+        bottom: 10px;
+        right: 10px;
+    }
+
+}
